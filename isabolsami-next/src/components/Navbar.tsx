@@ -13,6 +13,18 @@ export default function Navbar() {
         <a href="#precios">Pricing</a>
         <a href="informacion">About</a>
 
+        <form className={styles.busqueda} action="/" method="get">
+          <input
+            type="search"
+            placeholder="Search"
+            aria-label="Buscar"
+          />
+
+          <button >
+            Search
+          </button>
+          
+        </form>
       </div>
     </nav>
   );
