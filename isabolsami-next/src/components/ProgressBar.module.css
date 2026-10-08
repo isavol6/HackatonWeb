@@ -1,0 +1,36 @@
+.contenedor {
+    margin-top: 70px;
+    padding: 30px;
+    border: 2px solid #222;
+    border-radius: 12px;
+  }
+    
+  .barraExterior {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 25px;
+  }
+  
+  .barraInterior {
+    height: 100%;
+    background-color: #4f7cff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .inputContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .inputContainer input {
+    width: 90px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #999;
+  }
