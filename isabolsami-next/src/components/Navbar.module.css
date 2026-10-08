@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #303438;  
+    transform: rotate(180deg);
+  }
+  
+  .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .enlaces {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .enlaces a {
+    color: white;
+  }
+  
+  .enlaces a:hover {
+    color: #a5e5ef;
+    text-decoration: underline;
+  }
