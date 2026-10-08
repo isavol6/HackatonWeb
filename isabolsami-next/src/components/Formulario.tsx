@@ -138,8 +138,8 @@ export default function Formulario() {
             <h2>Datos enviados</h2>
 
             <ul>
-              <li>UserName: {datosEnviados.username}</li>
-              <li>FullName: {datosEnviados.fullName}</li>
+              <li>User{datosEnviados.username}</li>
+              <li>Name: {datosEnviados.fullName}</li>
               <li>Age: {datosEnviados.age}</li>
             </ul>
           </>

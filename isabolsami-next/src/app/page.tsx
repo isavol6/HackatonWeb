@@ -1,6 +1,7 @@
 import ProgressBar from "@/components/ProgressBar";
 import Navbar from "../components/Navbar";
 import Formulario from "@/components/Formulario";
+import Timer from "@/components/Timer";
 export default function Home() {
   return (
     <main
@@ -21,6 +22,9 @@ export default function Home() {
 
       <h2>Reto #3: Formulario completo</h2>
       <Formulario />
+
+      <h2>Reto #4: Timer</h2>
+      <Timer />
       </main>
   );
 }

@@ -34,7 +34,7 @@ export default function ProgressBar() {
       </div>
 
       <div className={styles.inputContainer}>
-        <label htmlFor="porcentaje">Input Percentage:</label>
+        <label htmlFor="porcentaje">Porcentaje</label>
 
         <input
           id="porcentaje"

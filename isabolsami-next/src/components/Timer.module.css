@@ -1,0 +1,41 @@
+.contenedor {
+    margin-top: 70px;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .contenedor h1 {
+    font-size: 45px;
+  }
+  
+  .tiempo {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .botones {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .botones button {
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .iniciar {
+    background-color: green;
+    color: white;
+  }
+  
+  .detener {
+    background-color: red;
+    color: white;
+  }
+  
+  .reiniciar {
+    background-color: gold;
+    color: black;
+  }
