@@ -1,0 +1,73 @@
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #fffafb;
+    color: #303438;
+    border: 2px solid #eadce5;
+    border-radius: 20px;
+  }
+  
+  .formulario {
+    flex: 1;
+    min-width: 0;
+  }
+  
+  .campo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .campo label {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .campo input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+  
+    background-color: white;
+    color: #303438;
+    border: 1px solid #b9b2bd;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .campo input[aria-invalid="true"] {
+    border-color: #b42318;
+  }
+  
+  .error {
+    color: #b42318;
+    font-size: 14px;
+  }
+  
+  .boton {
+    padding: 10px 24px;
+    background-color: #e9ddf5;
+    color: #303438;
+    border: 1px solid #b9a1ce;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .boton:hover {
+    background-color: #d8c3ec;
+  }
+  
+  .resultado {
+    flex: 1;
+    min-width: 0;
+  }
+  
+  .resultado li {
+    margin-bottom: 12px;
+  }
