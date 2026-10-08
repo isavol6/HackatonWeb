@@ -1,4 +1,6 @@
+import ProgressBar from "@/components/ProgressBar";
 import Navbar from "../components/Navbar";
+import Formulario from "@/components/Formulario";
 export default function Home() {
   return (
     <main
@@ -12,6 +14,13 @@ export default function Home() {
       <h1>Reto #1: Navbar invertido</h1>
 
       <Navbar />
-    </main>
+    
+
+      <h2>Reto #2: Progress Bar</h2> 
+      <ProgressBar />
+
+      <h2>Reto #3: Formulario completo</h2>
+      <Formulario />
+      </main>
   );
 }
